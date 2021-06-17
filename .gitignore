@@ -7,7 +7,7 @@
 *.tfvars
 terraform.tfvars
 *.terraform.lock.hcl
-
+tfplan
 # Crash log files
 crash.log
 *~
@@ -30,3 +30,7 @@ override.tf.json
 
 # Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
 # example: *tfplan*
+
+
+## remove credentials csf from git list 
+*.csv
