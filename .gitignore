@@ -34,3 +34,5 @@ override.tf.json
 
 ## remove credentials csf from git list 
 *.csv
+*.env
+.env
